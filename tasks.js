@@ -17,7 +17,7 @@ const TASKS = {
     title: "Task 1",
     scenario: "Immagina di voler accedere alla funzione che consente di visualizzare su Ourbank i documenti relativi a ...",
     activities: [
-      "Accedi al portale con <strong>UTENTE</strong> e <strong>PASSWORD</strong>. <br><br> Cerca la funzionalità all'interno di Ourbank che ti consenta di visualizzare i documenti relativi a ..."
+      "Accedi al portale con <strong>UTENTE</strong> e <strong>PASSWORD</strong>. <br> Cerca la funzionalità all'interno di Ourbank che ti consenta di visualizzare i documenti relativi a ..."
     ],
     survey: "https://forms.cloud.microsoft/e/46FhCns6AY"
   },
@@ -29,7 +29,7 @@ const TASKS = {
     scenario: "Immagina di aver bisogno di ricercare alcuni documenti specifici.",
     activities: [
       "<strong>Salva in formato excel</strong> la lista dei documenti relativi alla <strong>matricola 11917</strong>, <strong>Alboni Antonina </strong> e datati <strong>novembre 2022</strong>.",
-      "Individua nella lista il documento <strong>codice H000000026</strong> e aggiorna il mese a <strong>Novembre</strong>. <br><br> Verifica che <strong>la modifica sia stata registrata correttamente</strong>, poi <strong>scarica il documento</strong>."
+      "Individua nella lista il documento <strong>codice H000000026</strong> e aggiorna il mese a <strong>Novembre</strong>. <br> Verifica che <strong>la modifica sia stata registrata correttamente</strong>, poi <strong>scarica il documento</strong>."
     ],
     survey: "https://forms.cloud.microsoft/e/i8eAnHBmTg"
   },
@@ -40,7 +40,7 @@ const TASKS = {
     title: "Task 3",
     scenario: "Immagina di aver ricevuto un nuovo documento che deve essere inserito nel sistema.",
     activities: [
-      "<p><strong>Inserisci nel sistema un documento</strong> con le seguenti caratteristiche:</p><ul><li>Banca mittente: <strong>03599</strong></li><li>Data: <strong>10/10/2026</strong></li><li>Azienda: <strong>03599</strong></li><li>Tipologia: <strong>Cedolino paga</strong></li><li>Riferito a: <strong>Antonina Alboni, matricola INPS</strong></li><li>File: <strong>3599 CEDO 2026 Settembre.pdf</strong></li></ul><br><p><br>Assicurati che l'operazione venga completata correttamente.</p>"
+      "<p><strong>Inserisci nel sistema un documento</strong> con le seguenti caratteristiche:</p><ul><li>Banca mittente: <strong>03599</strong></li><li>Data: <strong>10/10/2026</strong></li><li>Azienda: <strong>03599</strong></li><li>Tipologia: <strong>Cedolino paga</strong></li><li>Riferito a: <strong>Antonina Alboni, matricola INPS</strong></li><li>File: <strong>3599 CEDO 2026 Settembre.pdf</strong></li></ul><br><p>Assicurati che l'operazione venga completata correttamente.</p>"
     ],
     survey: "https://forms.cloud.microsoft/e/30K5b4qWCP"
   },
