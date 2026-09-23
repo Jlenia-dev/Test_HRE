@@ -71,11 +71,18 @@
       font-size: 1.06rem;
       line-height: 1.65;
     }
-    .activity br + br,
-    .scenario br + br {
+    /* Un solo <br> mantiene il salto di riga e aggiunge solo una piccola
+       interlinea. Se nel testo sono rimasti due <br>, il secondo non aggiunge
+       un ulteriore spazio ampio. */
+    .activity br,
+    .scenario br {
       display: block;
       content: "";
-      margin-top: 0.45rem;
+      margin-top: 0.2rem;
+    }
+    .activity br + br,
+    .scenario br + br {
+      margin-top: 0;
     }
     .activity p + p,
     .activity p + ul,
