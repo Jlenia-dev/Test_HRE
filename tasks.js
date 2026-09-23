@@ -40,7 +40,7 @@ const TASKS = {
     title: "Task 3",
     scenario: "Immagina di aver ricevuto un nuovo documento che deve essere inserito nel sistema.",
     activities: [
-      "<p>Il documento:</p><ul><li>proviene dalla banca [banca mittente - 03599];</li><li>è datato [10/10/2026];</li><li>è associato all’azienda [03599];</li><li>si tratta di un documento relativo al <strong>Cedolino paga</strong>;</li><li>è riferito a <strong>Antonina Alboni</strong>, <strong>matricola INPS</strong>;</li><li>il file da utilizzare è <strong>'3599 CEDO 2026 Settembre.pdf'</strong>.</li></ul><p><strong>Inserisci il documento nel sistema utilizzando le informazioni che ti sono state fornite</strong> e assicurati che l’operazione venga completata correttamente.</p>"
+      "<p><strong>Inserisci nel sistema il seguente documento:</strong></p><ul><li><strong>Banca mittente:</strong> 03599</li><li><strong>Data:</strong> 10/10/2026</li><li><strong>Azienda:</strong> 03599</li><li><strong>Tipologia:</strong> Cedolino paga</li><li><strong>Riferito a:</strong> Antonina Alboni, matricola INPS</li><li><strong>File:</strong> '3599 CEDO 2026 Settembre.pdf'</li></ul><p>Assicurati infine che l'operazione venga completata correttamente.</p>"
     ],
     survey: "https://forms.cloud.microsoft/e/30K5b4qWCP"
   },
