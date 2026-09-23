@@ -49,9 +49,9 @@ const TASKS = {
     url: "https://collaudo.ourbank.it/pwm-hrmanagement-hre/DocumentSearch",
     counter: "4/5",
     title: "Task 4",
-    scenario: "Sai che oggi un determinato utente ha eseguito una specifica operazione e vuoi controllare che l’attività sia stata registrata correttamente e capire se sono disponibili ulteriori informazioni al riguardo.",
+    scenario: "Sai che oggi un determinato utente ha eseguito una specifica operazione e vuoi controllare che l’attività sia stata registrata correttamente.",
     activities: [
-      "Individua l’ultima operazione effettuata il 09/09/2026 dall’utente [Codice utente CC9020] relativa a [Download multiplo documenti]. Una volta trovata, consulta tutte le informazioni disponibili che ritieni utili per comprenderne il dettaglio.",
+      "Individua l'operazione effettuata il <strong> 09/09/2026 </strong> dall’<strong>utente con codice CC9020 </strong> relativa a all'<strong> operazione 'Ricerca documenti'</strong> e verifica sia stata correttamente registrata. ",
     ],
     survey: "https://forms.cloud.microsoft/e/pdeR53xbKp"
   },
