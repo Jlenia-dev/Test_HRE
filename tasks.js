@@ -26,10 +26,10 @@ const TASKS = {
     url: "https://collaudo.ourbank.it/pwm-hrmanagement-hre/DocumentSearch",
     counter: "2/5",
     title: "Task 2",
-    scenario: "Hai ricevuto le credenziali di accesso al portale e devi entrare per la prima volta.",
+    scenario: "Immagina di voler ricercare documenti specifici.",
     activities: [
-      "Accedi al portale inserendo il tuo <span class=\"caps\">Utente</span> e la <span class=\"caps\">Password</span> che ti sono stati consegnati.",
-      "Al primo accesso il portale ti chiede di cambiare la <span class=\"caps\">Password</span>: impostane una nuova e completa l'operazione."
+      "Visualizza la lista dei documenti relativi alla <strong>matricola 11917</strong>, <strong>Alboni Antonina </strong> e datati <strong>novembre 2022</strong>. Salva in Excel i risultati della ricerca.",
+      "Individua il documento <strong>codice H000000026</strong> relativo al <strong>mese di novembre</strong>. Assicurati infine che la modifica sia stata registrata correttamente e, una volta verificato, scarica il documento."
     ],
     survey: "https://forms.cloud.microsoft/e/i8eAnHBmTg"
   },
@@ -38,9 +38,9 @@ const TASKS = {
     url: "https://collaudo.ourbank.it/pwm-hrmanagement-hre/DocumentSearch",
     counter: "3/5",
     title: "Task 3",
-    scenario: "Scrivi qui lo scenario del task 3.",
+    scenario: "Immagina di aver ricevuto un nuovo documento che deve essere inserito nel sistema.",
     activities: [
-      "Scrivi qui l'attività 1."
+      "Il documento: proviene dalla banca [banca mittente - 03599]; è datato [10/10/2026]; è associato all’azienda [03599]; si tratta di un documento relativo a [CEDOLINO PAGA]; è riferito a [ANTONINA ALBONI]; il file da utilizzare bè [3599 CEDO 2026 Settembre.pdf]. È inoltre necessario indicare che [3599 CEDO 2026 Settembre]. Inserisci il documento nel sistema utilizzando le informazioni che ti sono state fornite e assicurati che l’operazione venga completata correttamente."
     ],
     survey: "https://forms.cloud.microsoft/e/30K5b4qWCP"
   },
@@ -49,10 +49,9 @@ const TASKS = {
     url: "https://collaudo.ourbank.it/pwm-hrmanagement-hre/DocumentSearch",
     counter: "4/5",
     title: "Task 4",
-    scenario: "Scrivi qui lo scenario del task 4.",
+    scenario: "Sai che oggi un determinato utente ha eseguito una specifica operazione e vuoi controllare che l’attività sia stata registrata correttamente e capire se sono disponibili ulteriori informazioni al riguardo.",
     activities: [
-      "Scrivi qui l'attività 1.",
-      "Scrivi qui l'attività 2."
+      "Individua l’ultima operazione effettuata il 09/09/2026 dall’utente [Codice utente CC9020] relativa a [Download multiplo documenti]. Una volta trovata, consulta tutte le informazioni disponibili che ritieni utili per comprenderne il dettaglio.",
     ],
     survey: "https://forms.cloud.microsoft/e/pdeR53xbKp"
   },
@@ -61,9 +60,9 @@ const TASKS = {
     url: "https://collaudo.ourbank.it/pwm-hrmanagement-hre/DocumentSearch",
     counter: "5/5",
     title: "Task 5",
-    scenario: "Scrivi qui lo scenario del task 5.",
+    scenario: "Immagina di voler verificare le informazioni associate a più documenti.",
     activities: [
-      "Scrivi qui l'attività 1."
+      "Visualizza il dettaglio di tutti i documenti di tipo ACCORDI SINDACALI da gennaio 2026 ad oggi."
     ],
     survey: "https://forms.cloud.microsoft/e/1sAWSLnxJN"
   }
