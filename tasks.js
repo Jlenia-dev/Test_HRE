@@ -28,8 +28,8 @@ const TASKS = {
     title: "Task 2",
     scenario: "Immagina di aver bisogno di ricercare alcuni documenti specifici.",
     activities: [
-      "Visualizza la lista dei documenti relativi alla <strong>matricola 11917</strong>, <strong>Alboni Antonina </strong> e datati <strong>novembre 2022</strong>. <br><strong>Salva in Excel i risultati</strong> della ricerca.",
-      "Individua il documento <strong>codice H000000026</strong> relativo al <strong>mese di novembre</strong>. Assicurati infine che la <strong>modifica sia stata registrata correttamente</strong> e, una volta verificato, <strong>scarica il documento</strong>."
+      "Visualizza la lista dei documenti relativi alla <strong>matricola 11917</strong>, <strong>Alboni Antonina </strong> e datati <strong>novembre 2022</strong>. <br><strong>Salva in Excel i risultati</strong> e individua il documento con <strong>codice H000000026</strong> relativo al mese di novembre.",
+      "Individua il documento <strong>codice H000000026</strong> relativo al <strong>mese di novembre</strong>. Assicurati infine che la <strong>modifica sia stata registrata correttamente</strong> e controlla che sia presente la registrazione associata all'operazione eseguita."
     ],
     survey: "https://forms.cloud.microsoft/e/i8eAnHBmTg"
   },
@@ -40,7 +40,7 @@ const TASKS = {
     title: "Task 3",
     scenario: "Immagina di aver ricevuto un nuovo documento che deve essere inserito nel sistema.",
     activities: [
-      "<p><strong>Inserisci nel sistema il seguente documento:</strong></p><ul><li><strong>Banca mittente:</strong> 03599</li><li><strong>Data:</strong> 10/10/2026</li><li><strong>Azienda:</strong> 03599</li><li><strong>Tipologia:</strong> Cedolino paga</li><li><strong>Riferito a:</strong> Antonina Alboni, matricola INPS</li><li><strong>File:</strong> '3599 CEDO 2026 Settembre.pdf'</li></ul><p>Assicurati infine che l'operazione venga completata correttamente.</p>"
+      "<p><strong>Inserisci nel sistema il seguente documento:</strong></p><ul><li>Banca mittente: <strong>03599</strong></li><li>Data: <strong>10/10/2026</strong></li><li>Azienda: <strong>03599</strong></li><li>Tipo documento: <strong>Documento relativo ...</strong></li></ul>"
     ],
     survey: "https://forms.cloud.microsoft/e/30K5b4qWCP"
   },
@@ -51,7 +51,7 @@ const TASKS = {
     title: "Task 4",
     scenario: "Immagina di aver scoperto che un utente oggi ha eseguito una specifica operazione e quindi vuoi controllare che l’attività sia stata registrata correttamente.",
     activities: [
-      "Individua l'operazione effettuata il <strong> 09/09/2026 </strong> dall’<strong>utente con codice CC9020 </strong> relativa a all'<strong> operazione 'Ricerca documenti'</strong> e <strong> verifica sia stata correttamente registrata</strong>. ",
+      "Individua l'operazione effettuata il <strong>09/09/2026</strong> dall’<strong>utente con codice CC9020</strong> relativa all'<strong>operazione 'Ricerca documenti'</strong> e verifica che la registrazione sia corretta."
     ],
     survey: "https://forms.cloud.microsoft/e/pdeR53xbKp"
   },
@@ -62,7 +62,7 @@ const TASKS = {
     title: "Task 5",
     scenario: "Immagina di voler verificare le informazioni associate a più documenti.",
     activities: [
-      "Visualizza il dettaglio di tutti i documenti di <strong> tipo 'Accordi sindacali'</strong> da <strong>gennaio 2026</strong> ad oggi."
+      "Visualizza il dettaglio di tutti i documenti di <strong>tipo 'Accordi sindacali'</strong> da <strong>gennaio 2026</strong> ad oggi."
     ],
     survey: "https://forms.cloud.microsoft/e/1sAWSLnxJN"
   }
