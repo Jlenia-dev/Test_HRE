@@ -15,9 +15,9 @@ const TASKS = {
     url: "https://collaudo.ourbank.it/pwm-hrmanagement-hre/DocumentSearch",
     counter: "1/5",
     title: "Task 1",
-    scenario: "Hai bisogno di recuperare un documento relativo a <strong>[Nome Cognome]</strong>. Sai che si tratta di un [tipo documento], relativo al [mese/anno o data], associato alla banca [nome banca].",
+    scenario: "Immagina di voler accedere alla funzione che consente di visualizzare su Ourbank i documenti relativi a ...",
     activities: [
-      "Utilizzando le informazioni a tua disposizione, individua il documento corretto. Verifica tutte le informazioni disponibili per assicurarti che sia quello che stai cercando e, una volta verificato, scaricalo."
+      "Accedi al portale con <strong>UTENTE</strong> e <strong>PASSWORD</strong>. <br> Cerca la funzionalità all'interno di Ourbank che ti consenta di visualizzare i documenti relativi a ..." 
     ],
     survey: "https://forms.cloud.microsoft/e/46FhCns6AY"
   },
@@ -26,10 +26,10 @@ const TASKS = {
     url: "https://collaudo.ourbank.it/pwm-hrmanagement-hre/DocumentSearch",
     counter: "2/5",
     title: "Task 2",
-    scenario: "Immagina di voler ricercare documenti specifici.",
+    scenario: "Immagina di aver bisogno di ricercare alcuni documenti specifici.",
     activities: [
-      "Visualizza la lista dei documenti relativi alla <strong>matricola 11917</strong>, <strong>Alboni Antonina </strong> e datati <strong>novembre 2022</strong>. Salva in Excel i risultati della ricerca.",
-      "Individua il documento <strong>codice H000000026</strong> relativo al <strong>mese di novembre</strong>. Assicurati infine che la modifica sia stata registrata correttamente e, una volta verificato, scarica il documento."
+      "Visualizza la lista dei documenti relativi alla <strong>matricola 11917</strong>, <strong>Alboni Antonina </strong> e datati <strong>novembre 2022</strong>. <br><strong>Salva in Excel i risultati</strong> della ricerca.",
+      "Individua il documento <strong>codice H000000026</strong> relativo al <strong>mese di novembre</strong>. Assicurati infine che la <strong>modifica sia stata registrata correttamente</strong> e, una volta verificato, <strong>scarica il documento</strong>."
     ],
     survey: "https://forms.cloud.microsoft/e/i8eAnHBmTg"
   },
@@ -40,7 +40,7 @@ const TASKS = {
     title: "Task 3",
     scenario: "Immagina di aver ricevuto un nuovo documento che deve essere inserito nel sistema.",
     activities: [
-      "Il documento: proviene dalla banca [banca mittente - 03599]; è datato [10/10/2026]; è associato all’azienda [03599]; si tratta di un documento relativo a [CEDOLINO PAGA]; è riferito a [ANTONINA ALBONI]; il file da utilizzare bè [3599 CEDO 2026 Settembre.pdf]. È inoltre necessario indicare che [3599 CEDO 2026 Settembre]. Inserisci il documento nel sistema utilizzando le informazioni che ti sono state fornite e assicurati che l’operazione venga completata correttamente."
+      "Il documento: <li>proviene dalla banca [banca mittente - 03599];</li><li> è datato [10/10/2026]; <li>è associato all’azienda [03599]; <li>si tratta di un documento relativo al <strong>Cedolino paga</strong></li>; <li>è riferito a <strong> Antonina Alboni</strong>, <strong> matricola INPS</strong> </li>; <li>il file da utilizzare è <strong> '3599 CEDO 2026 Settembre.pdf'</strong></li>. <br> <strong>Inserisci il documento nel sistema utilizzando le informazioni che ti sono state fornite </strong>e assicurati che l’operazione venga completata correttamente."
     ],
     survey: "https://forms.cloud.microsoft/e/30K5b4qWCP"
   },
@@ -49,9 +49,9 @@ const TASKS = {
     url: "https://collaudo.ourbank.it/pwm-hrmanagement-hre/DocumentSearch",
     counter: "4/5",
     title: "Task 4",
-    scenario: "Sai che oggi un determinato utente ha eseguito una specifica operazione e vuoi controllare che l’attività sia stata registrata correttamente.",
+    scenario: "Immagina di aver scoperto che un utente oggi ha eseguito una specifica operazione e quindi vuoi controllare che l’attività sia stata registrata correttamente.",
     activities: [
-      "Individua l'operazione effettuata il <strong> 09/09/2026 </strong> dall’<strong>utente con codice CC9020 </strong> relativa a all'<strong> operazione 'Ricerca documenti'</strong> e verifica sia stata correttamente registrata. ",
+      "Individua l'operazione effettuata il <strong> 09/09/2026 </strong> dall’<strong>utente con codice CC9020 </strong> relativa a all'<strong> operazione 'Ricerca documenti'</strong> e <strong> verifica sia stata correttamente registrata</strong>. ",
     ],
     survey: "https://forms.cloud.microsoft/e/pdeR53xbKp"
   },
@@ -62,7 +62,7 @@ const TASKS = {
     title: "Task 5",
     scenario: "Immagina di voler verificare le informazioni associate a più documenti.",
     activities: [
-      "Visualizza il dettaglio di tutti i documenti di tipo ACCORDI SINDACALI da gennaio 2026 ad oggi."
+      "Visualizza il dettaglio di tutti i documenti di <strong> tipo 'Accordi sindacali'</strong> da <strong>gennaio 2026</strong> ad oggi."
     ],
     survey: "https://forms.cloud.microsoft/e/1sAWSLnxJN"
   }
