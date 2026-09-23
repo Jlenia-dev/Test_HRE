@@ -28,8 +28,8 @@ const TASKS = {
     title: "Task 2",
     scenario: "Immagina di aver bisogno di ricercare alcuni documenti specifici.",
     activities: [
-      "Visualizza la lista dei documenti relativi alla <strong>matricola 11917</strong>, <strong>Alboni Antonina </strong> e datati <strong>novembre 2022</strong>. <br><strong>Salva in Excel i risultati</strong> e individua il documento con <strong>codice H000000026</strong> relativo al mese di novembre.",
-      "Individua il documento <strong>codice H000000026</strong> relativo al <strong>mese di novembre</strong>. Assicurati infine che la <strong>modifica sia stata registrata correttamente</strong> e controlla che sia presente la registrazione associata all'operazione eseguita."
+      "<strong>Salva in formato excel</strong> la lista dei documenti relativi alla <strong>matricola 11917</strong>, <strong>Alboni Antonina </strong> e datati <strong>novembre 2022</strong>.",
+      "Individua nella lista il documento <strong>codice H000000026</strong> e aggiorna il mese a <strong>Novembre</strong>. <br><br> Verifica che <strong>la modifica sia stata registrata correttamente</strong>, poi <strong>scarica il documento</strong>."
     ],
     survey: "https://forms.cloud.microsoft/e/i8eAnHBmTg"
   },
@@ -40,7 +40,7 @@ const TASKS = {
     title: "Task 3",
     scenario: "Immagina di aver ricevuto un nuovo documento che deve essere inserito nel sistema.",
     activities: [
-      "<p><strong>Inserisci nel sistema un documento</strong> con le seguenti caratteristiche:</p><ul><li>Banca mittente: <strong>03599</strong></li><li>Data: <strong>10/10/2026</strong></li><li>Azienda: <strong>03599</strong></li><li>Tipologia: <strong>Cedolino paga</strong></li><li>Riferito a: <strong>Antonina Alboni, matricola INPS</strong></li><li>File: <strong>'3599 CEDO 2026 Settembre.pdf'</strong></li></ul><br><p>Assicurati che l'operazione venga completata correttamente.</p>"
+      "<p><strong>Inserisci nel sistema un documento</strong> con le seguenti caratteristiche:</p><ul><li>Banca mittente: <strong>03599</strong></li><li>Data: <strong>10/10/2026</strong></li><li>Azienda: <strong>03599</strong></li><li>Tipologia: <strong>Cedolino paga</strong></li><li>Riferito a: <strong>Antonina Alboni, matricola INPS</strong></li><li>File: <strong>3599 CEDO 2026 Settembre.pdf</strong></li></ul><br><p><br>Assicurati che l'operazione venga completata correttamente.</p>"
     ],
     survey: "https://forms.cloud.microsoft/e/30K5b4qWCP"
   },
@@ -49,9 +49,9 @@ const TASKS = {
     url: "https://collaudo.ourbank.it/pwm-hrmanagement-hre/DocumentSearch",
     counter: "4/5",
     title: "Task 4",
-    scenario: "Immagina di aver scoperto che un utente oggi ha eseguito una specifica operazione e quindi vuoi controllare che l’attività sia stata registrata correttamente.",
+    scenario: "Immagina di dover controllare che l'operazione di un utente sia stata registrata correttamente.",
     activities: [
-      "Individua l'operazione effettuata il <strong>09/09/2026</strong> dall’<strong>utente con codice CC9020</strong> relativa all'<strong>operazione 'Ricerca documenti'</strong> e verifica che la registrazione sia corretta."
+      "Verifica che sia stata registrata correttamente l'operazione <strong>'Ricerca documenti'</strong> eseguita il <strong>09/09/2026</strong> dall'<strong>utente con codice CC9020</strong>."
     ],
     survey: "https://forms.cloud.microsoft/e/pdeR53xbKp"
   },
