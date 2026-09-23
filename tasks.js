@@ -17,7 +17,7 @@ const TASKS = {
     title: "Task 1",
     scenario: "Immagina di voler accedere alla funzione che consente di visualizzare su Ourbank i documenti relativi a ...",
     activities: [
-      "Accedi al portale con <strong>UTENTE</strong> e <strong>PASSWORD</strong>. <br><br> Cerca la funzionalità all'interno di Ourbank che ti consenta di visualizzare i documenti relativi a ..." 
+      "Accedi al portale con <strong>UTENTE</strong> e <strong>PASSWORD</strong>. <br><br> Cerca la funzionalità all'interno di Ourbank che ti consenta di visualizzare i documenti relativi a ..."
     ],
     survey: "https://forms.cloud.microsoft/e/46FhCns6AY"
   },
@@ -40,7 +40,7 @@ const TASKS = {
     title: "Task 3",
     scenario: "Immagina di aver ricevuto un nuovo documento che deve essere inserito nel sistema.",
     activities: [
-      "<p>Inserisci nel sistema il seguente documento:</p><ul><li>Banca mittente: <strong>03599</strong></li><li>Data: <strong>10/10/2026</strong></li><li>Azienda: <strong>03599</strong></li><li>Tipo documento: <strong>Documento relativo ...</strong></li></ul>"
+      "<p><strong>Inserisci nel sistema un documento</strong> con le seguenti caratteristiche:</p><ul><li>Banca mittente: <strong>03599</strong></li><li>Data: <strong>10/10/2026</strong></li><li>Azienda: <strong>03599</strong></li><li>Tipologia: <strong>Cedolino paga</strong></li><li>Riferito a: <strong>Antonina Alboni, matricola INPS</strong></li><li>File: <strong>'3599 CEDO 2026 Settembre.pdf'</strong></li></ul><br><p>Assicurati che l'operazione venga completata correttamente.</p>"
     ],
     survey: "https://forms.cloud.microsoft/e/30K5b4qWCP"
   },
@@ -73,6 +73,6 @@ const TASKS = {
    Stringa vuota per non aprire nessun questionario. */
 const QUESTIONARIO_URL = "";
 
-/* PROVA — sostituisce l'indirizzo di tutti i task.
+/* PROVA — sostituisce l’indirizzo di tutti i task.
    Rimetti la stringa vuota prima del test con i partecipanti. */
 const OVERRIDE_URL = "";
