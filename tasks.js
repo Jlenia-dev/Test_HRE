@@ -12,7 +12,7 @@
 
 const TASKS = {
   1: {
-    url: "https://collaudo.ourbank.it/pwm-hrmanagement-hre/DocumentSearch",
+    url: "https://collaudo.ourbank.it/pwm-intranet/Home",
     counter: "1/5",
     title: "Task 1",
     scenario: "Immagina di voler accedere alla funzione che consente di visualizzare su Ourbank i documenti relativi a ...",
@@ -29,7 +29,7 @@ const TASKS = {
     title: "Task 2",
     scenario: "Immagina di aver bisogno di ricercare alcuni documenti specifici.",
     activities: [
-      "<strong>Salva in formato excel</strong> la lista dei documenti relativi alla <strong>matricola 11917</strong>, <strong>Alboni Antonina </strong> e datati <strong>novembre 2022</strong>.",
+      "<strong>Salva in formato .csv</strong> la lista dei documenti relativi alla <strong>matricola 11917</strong>, <strong>Alboni Antonina </strong> e datati <strong>novembre 2022</strong>, <strong>rimuovendo eventuali riferimenti a banche mittenti</strong>.",
       "Individua nella lista il documento <strong>codice H000000026</strong> e aggiorna il mese a <strong>Novembre</strong>. <br> Infine <strong>scarica il documento</strong>."
     ],
     survey: "https://forms.cloud.microsoft/e/i8eAnHBmTg"
@@ -58,7 +58,7 @@ const TASKS = {
   },
 
   5: {
-    url: "https://collaudo.ourbank.it/pwm-hrmanagement-hre/DocumentSearch",
+    url: "https://collaudo.ourbank.it/pwm-hrmanagement-hra/DocumentSearch",
     counter: "5/5",
     title: "Task 5",
     scenario: "Immagina di voler verificare le informazioni associate a più documenti.",
