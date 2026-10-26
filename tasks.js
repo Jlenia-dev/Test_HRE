@@ -15,10 +15,10 @@ const TASKS = {
     url: "https://collaudo.ourbank.it/pwm-intranet/Home",
     counter: "1/5",
     title: "Task 1",
-    scenario: "Immagina di voler accedere alla funzione che consente di visualizzare su Ourbank i documenti relativi a ...",
+    scenario: "Immagina di dover recuperare alcuni documenti HR di un dipendente del Gruppo.",
     activities: [
-      "Accedi al portale con <strong>UTENTE</strong> e <strong>PASSWORD</strong>.",
-      "<strong> Cerca la funzionalità </strong> all'interno di Ourbank che ti consenta di visualizzare i documenti relativi a ..."
+      "Accedi al portale con <strong>utente CC9975</strong> e <strong>password K9E_wg!3i_LvN</strong>.",
+      "<strong> Trova in Ourbank la funzionatlià </strong>che ti permette di cercare i documenti del personale."
     ],
     survey: "https://forms.cloud.microsoft/e/46FhCns6AY"
   },
@@ -29,7 +29,7 @@ const TASKS = {
     title: "Task 2",
     scenario: "Immagina di aver bisogno di ricercare alcuni documenti specifici.",
     activities: [
-      "<strong>Salva in formato .csv</strong> la lista dei documenti relativi alla <strong>matricola 11917</strong>, <strong>Alboni Antonina </strong> e datati <strong>novembre 2022</strong>, <strong>rimuovendo eventuali riferimenti a banche mittenti</strong>.",
+      "<p><strong>Salva in formato .csv</strong> la lista dei documenti relativi a:</p><ul><li>Matricola: <strong>11917</strong></li><li>Nome: <strong>Antonina</strong></li><li>Cognome: <strong>Alboni</strong></li><li>Data: <strong>Novembre 2022</strong></li></ul><br>",
       "Individua nella lista il documento <strong>codice H000000026</strong> e aggiorna il mese a <strong>Novembre</strong>. <br> Infine <strong>scarica il documento</strong>."
     ],
     survey: "https://forms.cloud.microsoft/e/i8eAnHBmTg"
@@ -41,7 +41,7 @@ const TASKS = {
     title: "Task 3",
     scenario: "Immagina di aver ricevuto un nuovo documento che deve essere inserito nel sistema.",
     activities: [
-      "<p><strong>Inserisci nel sistema un documento</strong> con le seguenti caratteristiche:</p><ul><li>Banca mittente: <strong>03599</strong></li><li>Data: <strong>10/10/2026</strong></li><li>Azienda: <strong>03599</strong></li><li>Tipologia: <strong>Cedolino paga</strong></li><li>Riferito a: <strong>Antonina Alboni, matricola INPS</strong></li><li>File: <strong>3599 CEDO 2026 Settembre.pdf</strong></li></ul><br><p>Assicurati poi che l'<strong>operazione venga completata correttamente</strong>.</p>"
+      "<p><strong>Inserisci nel sistema un documento</strong> con le seguenti caratteristiche:</p><ul><li>Banca mittente: <strong>03599</strong></li><li>Data: <strong>10/10/2026</strong></li><li>Azienda: <strong>03599</strong></li><li>Tipologia: <strong>Cedolino paga</strong></li><li>Riferito a: <strong>Antonina Alboni, matricola INPS 58980227 </strong></li><li>File: <strong>3599 CEDO 2026 Settembre.pdf</strong></li></ul><br>"
     ],
     survey: "https://forms.cloud.microsoft/e/30K5b4qWCP"
   },
@@ -52,7 +52,7 @@ const TASKS = {
     title: "Task 4",
     scenario: "Immagina di dover controllare che l'operazione di un utente sia stata registrata correttamente.",
     activities: [
-      "Verifica che sia stata registrata correttamente l'operazione <strong>'Ricerca documenti'</strong> eseguita il <strong>09/09/2026</strong> dall'<strong>utente con codice CC9020</strong>."
+      "Verifica che sia stata registrata correttamente l'ultima operazione <strong>'Ricerca documenti'</strong> eseguita il <strong>09/09/2026</strong> dall'<strong>utente con codice CC9020</strong>."
     ],
     survey: "https://forms.cloud.microsoft/e/pdeR53xbKp"
   },
