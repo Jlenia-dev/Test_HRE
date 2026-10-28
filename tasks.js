@@ -27,7 +27,7 @@ const TASKS = {
     url: "https://collaudo.ourbank.it/pwm-hrmanagement-hre/DocumentSearch",
     counter: "2/5",
     title: "Task 2",
-    scenario: "Immagina di aver bisogno di ricercare alcuni documenti specifici.",
+    scenario: "Immagina di aver bisogno di ricercare e scaricare alcuni documenti.",
     activities: [
       "<p><strong>Salva in formato .csv</strong> la lista dei documenti relativi a:</p><ul><li>Matricola: <strong>11917</strong></li><li>Nome: <strong>Antonina</strong></li><li>Cognome: <strong>Alboni</strong></li><li>Data documento: <strong>Novembre 2022</strong></li></ul><br>",
       "Apri il dettaglio del documento <strong>codice H000000026</strong>. Aggiorna il mese a <strong>Novembre</strong> e infine <strong>scarica il documento</strong>."
