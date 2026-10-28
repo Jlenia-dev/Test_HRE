@@ -30,7 +30,7 @@ const TASKS = {
     scenario: "Immagina di aver bisogno di ricercare alcuni documenti specifici.",
     activities: [
       "<p><strong>Salva in formato .csv</strong> la lista dei documenti relativi a:</p><ul><li>Matricola: <strong>11917</strong></li><li>Nome: <strong>Antonina</strong></li><li>Cognome: <strong>Alboni</strong></li><li>Data documento: <strong>Novembre 2022</strong></li></ul><br>",
-      "Individua nella lista il documento <strong>codice H000000026</strong> e aggiornane il mese a <strong>Novembre</strong>. <br> Infine <strong>scarica il documento</strong>."
+      "Apri il dettaglio del documento <strong>codice H000000026</strong>. Aggiorna il mese a <strong>Novembre</strong>. <br> Infine <strong>scarica il documento</strong>."
     ],
     survey: "https://forms.cloud.microsoft/e/i8eAnHBmTg"
   },
